@@ -18,6 +18,7 @@ namespace Class05
             ICombatant bossEnemy = new Fighter("Scarier Monster", mediumArmor, mediumWeapon);
 
             fighter.Attack(badGuy);
+            fighter.Attack(bossEnemy);
 
         }
 
